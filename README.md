@@ -2,6 +2,8 @@
 Script for finding, checking and seeding files through qbittorrent (Helpful post-format utility)
 
 ## Requirememnts:
+  Linux
+
   python3
 
   pip3
