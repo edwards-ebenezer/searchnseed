@@ -2,7 +2,7 @@
 Script for finding, checking and seeding files through qbittorrent (Helpful post-format utility)
 
 ## Requirememnts:
-  Linux
+  Linux/locate
 
   python3
 
@@ -12,36 +12,24 @@ Script for finding, checking and seeding files through qbittorrent (Helpful post
 
   qbittorrentapi
 
-  locate
-
 ## Install Instructions
 
 ### Manjaro 
-yay -Syu
-
-yay -Syu python-pip locate
-
-pip install --upgrade pip 
-
-pip install pip-tools
-
-pip install python-dotenv
-
-pip install qbittorrent-api
+    yay -Syu
+    yay -Syu python-pip locate
+    pip install --upgrade pip 
+    pip install pip-tools
+    pip install python-dotenv
+    pip install qbittorrent-api
 
 
 ### Ubuntu && Ubuntu based distros
-sudo apt update 
-
-sudo apt install python3-pip locate
-
-pip3 install --upgrade pip 
-
-pip3 install pip-tools
-
-pip3 install python-dotenv
-
-pip3 install qbittorrent-api
+    sudo apt update 
+    sudo apt install python3-pip locate
+    pip3 install --upgrade pip 
+    pip3 install pip-tools
+    pip3 install python-dotenv
+    pip3 install qbittorrent-api
 
 
 ## Usage
