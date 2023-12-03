@@ -12,24 +12,26 @@ Script for finding, checking and seeding files through qbittorrent (Helpful post
 
   qbittorrentapi
 
+  argparse
+
 ## Install Instructions
 
 ### Manjaro 
     yay -Syu
     yay -Syu python-pip locate
+    python -m venv .qbitenv
+    source .qbitenv/bin/activate
     pip install --upgrade pip 
-    pip install pip-tools
-    pip install python-dotenv
-    pip install qbittorrent-api
+    pip3 install git+https://github.com/rmartin16/qbittorrent-api.git@main#egg=qbittorrent-api pip-tools argparse python-dotenv
 
 
 ### Ubuntu && Ubuntu based distros
     sudo apt update 
     sudo apt install python3-pip locate
+    python -m venv .qbitenv
+    source .qbitenv/bin/activate
     pip3 install --upgrade pip 
-    pip3 install pip-tools
-    pip3 install python-dotenv
-    pip3 install qbittorrent-api
+    pip3 install git+https://github.com/rmartin16/qbittorrent-api.git@main#egg=qbittorrent-api pip-tools argparse python-dotenv
 
 
 ## Usage
