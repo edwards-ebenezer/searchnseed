@@ -149,7 +149,11 @@ def find_and_check_tors(qbt_client, args):
                     )
                     if args.verbose:
                         print(
-                            f"filepath: {save_path}\nabsolute filepath: {file_path_List[filename_count]}\nfilepath length: {filepath_length}\nfilename length: {filename_length}\n{tor_state_info}"
+                            f"filepath: {save_path}\n"
+                            f"absolute filepath: {file_path_List[filename_count]}\n"
+                            f"filepath length: {filepath_length}\n"
+                            f"filename length: {filename_length}\n"
+                            f"{tor_state_info}"
                         )
             elif (filename_count == 1) and (muliresult == True):
                 file_path_List_blob = loacte_sub_call(
